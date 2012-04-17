@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+
+<body class="lift:content_id=main">
+
+<div id="main" class="lift:surround?with=default;at=content">
+    <div style="width: 60%; float: left;">
+        <h2>News</h2>
+        <lift:comet type="articleUpdater">
+            <ul id="articles">
+                <div class="article">
+                    <div class="category">
+                        <span class="type">Category</span>
+                        <li class="entry">
+                            <span class="time">Time</span> - <a href="#" class="link"></a>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </lift:comet>
+        <span><a href="/articles">>> more...</a></span>
+    </div>
+
+</div>
+</body>
+</html>

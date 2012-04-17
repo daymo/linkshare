@@ -1,0 +1,18 @@
+<div id="main" class="lift:surround?with=default;at=content">
+    <h1>Alle Artikel</h1>
+    <ol class="articles" lift="articles.all">
+        <li class="top">
+            <a href="#"><span id="title">Title</span></a> : <span id="category">Category</span>
+        </li>
+    </ol>
+
+    <div lift="articles.paginate">
+        <p><nav:records/></p>
+        <nav:first /> |
+        <nav:prev /> |
+        <nav:allpages> | </nav:allpages> |
+        <nav:next /> |
+        <nav:last />
+    </div>
+
+</div>
